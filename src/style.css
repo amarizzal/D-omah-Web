@@ -1,0 +1,30 @@
+@tailwind base;
+
+@font-face {
+    font-family: cocogoose;
+    src: url(../src/fonts/cocogoose-classic-extrabold-trial-webfont.woff) format("woff");
+  }
+  @font-face {
+    font-family: lemon;
+    src: url(../src/fonts/lemonmilk-webfont.woff) format("woff");
+  }
+
+@tailwind components;
+
+@tailwind utilities;
+
+.font-main {
+    font-family: lemon;
+}
+
+.font-sec {
+    font-family: cocogoose;
+}
+
+.zz {
+    z-index: -1;
+}
+
+.zzz {
+    z-index: 0;
+}
